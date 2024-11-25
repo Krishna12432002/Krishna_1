@@ -5,11 +5,11 @@ git init: This command initializes a new Git repository in the current directory
 
 2. Checking Status
 git status: Displays the current state of the working directory. After running git init, no commits are made yet, and all files are untracked.
-Files listed under "Untracked files" have not yet been added to version control (e.g., GitPtg.txt.txt, code.cpp.txt, Even.cpp).
+Files listed under "Untracked files" have not yet been added to version control (Task.cpp).
 
 4. Adding Files
 git add <file>: Adds a specific file to the staging area, marking it for inclusion in the next commit.
-Example: git add Even.cpp
+Example: git add Task.cpp
 git add .: Adds all files in the directory to the staging area.
 
 5. Committing Changes
@@ -21,7 +21,7 @@ git config --global user.name "<name>"
 
 6. Adding a Remote Repository
 git remote add origin <url>: Adds a remote repository (such as GitHub) to push changes to.
-Example: git remote add origin https://github.com/Swapnamummadi/GitPTG.git
+Example: git remote add origin https://github.com/Krishna12432002/Krishna_1.git.
 
 7. Pushing Changes to Remote
 git push -u origin master: Pushes the local changes to the remote repository on the master branch.
