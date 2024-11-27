@@ -27,19 +27,3 @@ Example: git remote add origin https://github.com/Krishna12432002/Krishna_1.git.
 git push -u origin master: Pushes the local changes to the remote repository on the master branch.
 git push --set-upstream origin <branch_name>: Pushes changes to a newly created branch and sets up tracking for that remote branch.
 
-8. Branch Operations
-git checkout -b <branch_name>: Creates a new branch and switches to it.
-Example: git checkout -b "copy1" creates and switches to a new branch called copy1.
-git checkout <branch_name>: Switches to an existing branch.
-
-9. Merging Changes from Remote Branch
-git pull: Fetches changes from the remote repository and merges them into the current branch.
-git merge <branch_name>: Merges the specified branch into the current branch. If there are no changes, it will display "Already up to date."
-
-10. Handling Untracked Files
-Git lists untracked files (e.g., Factorial.cpp.txt) that haven't been added to version control. Use git add to track them and then commit them.
-
-11. Push Operations for Branches
-After committing changes in a new branch (e.g., branch1), you need to push it to the remote with:
-git push --set-upstream origin branch1
-This creates and tracks the remote branch.
